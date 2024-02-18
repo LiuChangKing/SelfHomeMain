@@ -60,7 +60,11 @@ public class TeleportHomeProtectListener implements Listener {
           event.getPlayer().teleport(topNonAirBlockLoc); // 将玩家传送至最顶端非空气方块上方
           topNonAirBlockLoc.getBlock().setType(Material.GLASS); // 将最顶端非空气方块设置为玻璃
           Main.JavaPlugin.getLogger().info("生成保护: " + topNonAirBlockLoc);
+
+          // 再次将玩家传送至目标位置
+          event.getPlayer().teleport(event.getTo());
         }
+
       }
     }).runTask((Plugin) Main.JavaPlugin);
   }
