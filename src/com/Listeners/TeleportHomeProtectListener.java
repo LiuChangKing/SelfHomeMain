@@ -14,8 +14,7 @@ import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
-public class TeleportHomeProtectListener
-        implements Listener {
+public class TeleportHomeProtectListener implements Listener {
 
   // 当玩家传送事件发生时触发
   @EventHandler(priority = EventPriority.HIGHEST, ignoreCancelled = false)
@@ -37,8 +36,10 @@ public class TeleportHomeProtectListener
       public void run() {
         // 获取传送目标的位置
         Location loc = event.getTo();
+        Main.JavaPlugin.getLogger().info("传送目标位置: " + loc);
         // 找到传送目标位置的最顶端非空气方块位置
         Location highestNonAirBlockLoc = findHighestNonAirBlockLocation(loc);
+        Main.JavaPlugin.getLogger().info("最顶端非空气方块位置: " + highestNonAirBlockLoc);
         boolean check = false;
         double firstY = highestNonAirBlockLoc.getY();
         // 从最顶端非空气方块位置向下遍历，检查是否有方块
@@ -50,16 +51,18 @@ public class TeleportHomeProtectListener
             break;
           }
         }
+        Main.JavaPlugin.getLogger().info("方块检查结果: " + check);
         // 如果检查标记为 false，并且传送目标位置是空气，则执行生成保护操作
         if (!check && event.getTo().getWorld().getBlockAt(event.getTo()).getType() == Material.AIR) {
           event.getPlayer().sendMessage(Variable.Lang_YML.getString("SpawnProtection"));
-          event.getTo().getWorld().getBlockAt(event.getTo()).setType(Material.GLASS);
+          Location topNonAirBlockLoc = highestNonAirBlockLoc.clone();
+          topNonAirBlockLoc.setY(topNonAirBlockLoc.getY() + 1); // 将位置移至最顶端非空气方块上方
+          event.getPlayer().teleport(topNonAirBlockLoc); // 将玩家传送至最顶端非空气方块上方
+          topNonAirBlockLoc.getBlock().setType(Material.GLASS); // 将最顶端非空气方块设置为玻璃
+          Main.JavaPlugin.getLogger().info("生成保护: " + topNonAirBlockLoc);
         }
-
       }
-    }).runTask((Plugin)Main.JavaPlugin);
-
-
+    }).runTask((Plugin) Main.JavaPlugin);
   }
 
   // 找到传送目标位置的最顶端非空气方块位置
@@ -80,5 +83,4 @@ public class TeleportHomeProtectListener
 
     return location;  // 如果所有方块都是空气，返回原始位置
   }
-
 }
