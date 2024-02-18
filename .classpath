@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/[浮空字体]HolographicDisplays.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/[前置区块限制]item-nbt-api-plugin-2.5.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/HikariCP-4.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/mysql-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/PlaceholderAPI-2.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/PlayerPoints-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/ProtocolLib.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/RealisticSeasons-10.5.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/slf4j-api-1.7.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/[多世界]Multiverse-Core-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.7.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.19.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.20.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/[创世神]WorldEdit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/Code_S/Lib/FastAsyncWorldEdit-bukkit-21.03.09-a5e5590-1285-22.3.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/[浮空字体]HolographicDisplays.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/[前置区块限制]item-nbt-api-plugin-2.5.0-SNAPSHOT.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/HikariCP-4.0.3.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/mysql-jdbc.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/PlaceholderAPI-2.10.4.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/PlayerPoints-3.2.4.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/ProtocolLib.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/RealisticSeasons-10.5.9.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/slf4j-api-1.7.26.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/Vault.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/[多世界]Multiverse-Core-2.5.0.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.12.2.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.5.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.7.10.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.19.4.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.20.1.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.1.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/spigot-1.16.2.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/[创世神]WorldEdit.jar" />
+    <libelement value="file://C:/Users/Administrator/Desktop/Code_S/Lib/FastAsyncWorldEdit-bukkit-21.03.09-a5e5590-1285-22.3.8.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>SPIGOT</platformType>
+        </autoDetectTypes>
+        <projectReimportVersion>1</projectReimportVersion>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs/plugins" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/libs/plugins" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/libs/plugins" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/libs/plugins" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

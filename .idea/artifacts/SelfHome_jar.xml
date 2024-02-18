@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SelfHome:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SelfHome_jar</output-path>
+    <root id="archive" name="SelfHome.jar">
+      <element id="module-output" name="SelfHome" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/GUI.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/GUI_en.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
